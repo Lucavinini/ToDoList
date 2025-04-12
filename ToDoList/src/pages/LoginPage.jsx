@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import Parse from '../parseconfig.js';
+import Parse from '../parseConfig.js';
 import "./LoginPage.css";
 
 const LoginPage = () => {
