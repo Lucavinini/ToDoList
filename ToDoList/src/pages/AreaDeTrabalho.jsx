@@ -55,7 +55,7 @@ const AreaDeTrabalho = () => {
     const bloco = new Bloco();
 
     bloco.set('texto', '');
-    bloco.set('cor', '#dddddd');
+    bloco.set('cor', '#40E0D0');
     bloco.set('usuario', Parse.User.current());
 
     try {
@@ -63,7 +63,7 @@ const AreaDeTrabalho = () => {
       setBlocos([...blocos, {
         id: resultado.id,
         texto: '',
-        cor: '#dddddd',
+        cor: '#40E0D0',
       }]);
     } catch (err) {
       console.error('Erro ao salvar bloco:', err);
